@@ -5,7 +5,10 @@ import Anchor from 'grommet/components/Anchor';
 import Header from 'grommet/components/Header';
 import Footer from 'grommet/components/Footer';
 import Title from 'grommet/components/Title';
-import TodoAppDashboard from './components/TodoAppDashboard';
+import ExpensesHome from './components/ExpensesHome';
+import Table from 'grommet/components/Table';
+import TableRow from 'grommet/components/TableRow';
+
 
 export default class Main extends Component {
   render () {
@@ -14,9 +17,9 @@ export default class Main extends Component {
         <Box full={true}>
           <Header direction="row" justify="between"
             pad={{horizontal: 'medium'}}>
-            <Title>Sample App</Title>
+            <Title>iPAL Spend Analyzer</Title>
           </Header>
-          <TodoAppDashboard />
+          <ExpensesHome />
           <Footer primary={true} appCentered={true} direction="column"
             align="center" pad="small" colorIndex="grey-1">
             <p>
