@@ -5,7 +5,7 @@ import Anchor from 'grommet/components/Anchor';
 import Header from 'grommet/components/Header';
 import Footer from 'grommet/components/Footer';
 import Title from 'grommet/components/Title';
-import ExpensesHome from './components/ExpensesHome';
+import Home from './components/Home';
 import Table from 'grommet/components/Table';
 import TableRow from 'grommet/components/TableRow';
 
@@ -19,7 +19,7 @@ export default class Main extends Component {
             pad={{horizontal: 'medium'}}>
             <Title>iPAL Spend Analyzer</Title>
           </Header>
-          <ExpensesHome />
+          <Home />
           <Footer primary={true} appCentered={true} direction="column"
             align="center" pad="small" colorIndex="grey-1">
             <p>
