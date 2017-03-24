@@ -12,6 +12,9 @@ export default class SpendTable extends Component {
 		  <thead>
 		    <TableRow>
 		      <th>
+		      	Date
+		      </th>
+		      <th>
 		        Category
 		      </th>
 		      <th>

@@ -6,8 +6,6 @@ import Header from 'grommet/components/Header';
 import Footer from 'grommet/components/Footer';
 import Title from 'grommet/components/Title';
 import Home from './components/Home';
-import Table from 'grommet/components/Table';
-import TableRow from 'grommet/components/TableRow';
 
 
 export default class Main extends Component {
